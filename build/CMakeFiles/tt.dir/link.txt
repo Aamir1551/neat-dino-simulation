@@ -1,1 +1,1 @@
-/usr/bin/c++       -o tt 
+/usr/bin/c++     CMakeFiles/tt.dir/src/linked_list.cc.o CMakeFiles/tt.dir/src/main.cc.o CMakeFiles/tt.dir/src/matrix.cc.o CMakeFiles/tt.dir/src/node.cc.o  -o tt 

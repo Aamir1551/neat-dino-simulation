@@ -123,6 +123,114 @@ tt/fast:
 	$(MAKE) -f CMakeFiles/tt.dir/build.make CMakeFiles/tt.dir/build
 .PHONY : tt/fast
 
+src/linked_list.o: src/linked_list.cc.o
+
+.PHONY : src/linked_list.o
+
+# target to build an object file
+src/linked_list.cc.o:
+	$(MAKE) -f CMakeFiles/tt.dir/build.make CMakeFiles/tt.dir/src/linked_list.cc.o
+.PHONY : src/linked_list.cc.o
+
+src/linked_list.i: src/linked_list.cc.i
+
+.PHONY : src/linked_list.i
+
+# target to preprocess a source file
+src/linked_list.cc.i:
+	$(MAKE) -f CMakeFiles/tt.dir/build.make CMakeFiles/tt.dir/src/linked_list.cc.i
+.PHONY : src/linked_list.cc.i
+
+src/linked_list.s: src/linked_list.cc.s
+
+.PHONY : src/linked_list.s
+
+# target to generate assembly for a file
+src/linked_list.cc.s:
+	$(MAKE) -f CMakeFiles/tt.dir/build.make CMakeFiles/tt.dir/src/linked_list.cc.s
+.PHONY : src/linked_list.cc.s
+
+src/main.o: src/main.cc.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cc.o:
+	$(MAKE) -f CMakeFiles/tt.dir/build.make CMakeFiles/tt.dir/src/main.cc.o
+.PHONY : src/main.cc.o
+
+src/main.i: src/main.cc.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cc.i:
+	$(MAKE) -f CMakeFiles/tt.dir/build.make CMakeFiles/tt.dir/src/main.cc.i
+.PHONY : src/main.cc.i
+
+src/main.s: src/main.cc.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cc.s:
+	$(MAKE) -f CMakeFiles/tt.dir/build.make CMakeFiles/tt.dir/src/main.cc.s
+.PHONY : src/main.cc.s
+
+src/matrix.o: src/matrix.cc.o
+
+.PHONY : src/matrix.o
+
+# target to build an object file
+src/matrix.cc.o:
+	$(MAKE) -f CMakeFiles/tt.dir/build.make CMakeFiles/tt.dir/src/matrix.cc.o
+.PHONY : src/matrix.cc.o
+
+src/matrix.i: src/matrix.cc.i
+
+.PHONY : src/matrix.i
+
+# target to preprocess a source file
+src/matrix.cc.i:
+	$(MAKE) -f CMakeFiles/tt.dir/build.make CMakeFiles/tt.dir/src/matrix.cc.i
+.PHONY : src/matrix.cc.i
+
+src/matrix.s: src/matrix.cc.s
+
+.PHONY : src/matrix.s
+
+# target to generate assembly for a file
+src/matrix.cc.s:
+	$(MAKE) -f CMakeFiles/tt.dir/build.make CMakeFiles/tt.dir/src/matrix.cc.s
+.PHONY : src/matrix.cc.s
+
+src/node.o: src/node.cc.o
+
+.PHONY : src/node.o
+
+# target to build an object file
+src/node.cc.o:
+	$(MAKE) -f CMakeFiles/tt.dir/build.make CMakeFiles/tt.dir/src/node.cc.o
+.PHONY : src/node.cc.o
+
+src/node.i: src/node.cc.i
+
+.PHONY : src/node.i
+
+# target to preprocess a source file
+src/node.cc.i:
+	$(MAKE) -f CMakeFiles/tt.dir/build.make CMakeFiles/tt.dir/src/node.cc.i
+.PHONY : src/node.cc.i
+
+src/node.s: src/node.cc.s
+
+.PHONY : src/node.s
+
+# target to generate assembly for a file
+src/node.cc.s:
+	$(MAKE) -f CMakeFiles/tt.dir/build.make CMakeFiles/tt.dir/src/node.cc.s
+.PHONY : src/node.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -132,6 +240,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... tt"
 	@echo "... edit_cache"
+	@echo "... src/linked_list.o"
+	@echo "... src/linked_list.i"
+	@echo "... src/linked_list.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/matrix.o"
+	@echo "... src/matrix.i"
+	@echo "... src/matrix.s"
+	@echo "... src/node.o"
+	@echo "... src/node.i"
+	@echo "... src/node.s"
 .PHONY : help
 
 
