@@ -14,6 +14,7 @@ class Matrix {
 
   public:
     Matrix(int rows, int columns, double v = 0): rows(rows), columns(columns) {
+      values = std::make_unique<float>(rows * columns);
       for(int i=0; i<rows * columns; i++) {
         *(values.get() + i)= v;
       }

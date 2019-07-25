@@ -13,7 +13,8 @@ using namespace std;
 
 int main(int argc, const char **argv) {
 
-  //Variable *a = new Variable(new Matrix(1, 1, 5));
+  Matrix *b = new Matrix(1, 1, 5);
+  Variable *a = new Variable(new Matrix(1, 1, 5));
   cout << "hey1" << endl;
   return 0;
 }
